@@ -18,10 +18,12 @@ create sequence seq_note_detail
  cache 20
  no cycle;
 
- 2) Created All the RestAPI 7 endpoints  in NoteController
-  and implement the Service class
+ Created some dummy values for testing
 
-3)Fetched the Data using the repository
+ 2) Created All the RestAPI 7 endpoints  in NoteController
+  and implemented the Service class
+
+3)Fetched the Data using the repository layer
 
 4)Created a basic Authentication using the spring security dependency
 its username and password are present in the application.yaml
