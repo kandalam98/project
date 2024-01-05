@@ -1,4 +1,8 @@
-1) Created PostGres Database and Created Table "note_detail"
+**** Implemneted using Spring Boot Java ***
+**** Created Postgres connection from DBeaver****
+**** You need to have required maven dependencies to run the application and created a Postgres DB connection****
+
+1) Created PostGres Database using DBeaver and Created Table "note_detail"
 
 CREATE TABLE note_detail (
 
