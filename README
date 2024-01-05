@@ -1,0 +1,32 @@
+1) Created PostGres Database and Created Table "note_detail"
+
+CREATE TABLE note_detail (
+
+note_detail_id numeric NOT NULL ,
+
+note varchar(100) default null ,
+
+CONSTRAINT node_detail_pk primary key (note_detail_id)
+
+)
+
+create sequence seq_note_detail
+ increment by 1
+ minvalue 1
+ maxvalue 10000
+ start 1
+ cache 20
+ no cycle;
+
+ 2) Created All the RestAPI 7 endpoints  in NoteController
+  and implement the Service class
+
+3)Fetched the Data using the repository
+
+4)Created a basic Authentication using the spring security dependency
+its username and password are present in the application.yaml
+
+5) Also created a basic rating limiter using Token Bucket algorithm
+
+PS - I couldnt get time to implement authentication add rating limiter in details as today is the deadline.
+

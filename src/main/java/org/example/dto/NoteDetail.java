@@ -20,6 +20,5 @@ public class NoteDetail {
 
     @Column(name="USERNAME")
     private String username;
-    @Column(name="PASSWORD")
-    private String password;
+
 }
